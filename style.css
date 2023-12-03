@@ -1,0 +1,196 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    border: 0;
+    
+}
+.body{
+    background-color: rgb(20, 17, 17);
+    
+}
+.container{
+    border: 2px;
+    border-color: black;
+}
+.blackbig .buttons{
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.blackbig .buttons img {
+    width: 90px;
+    height: 30px;
+    margin-left: 100px;
+}
+/* .buttons{
+margin-left: 150px;
+} */
+.background-text{
+    font-weight: 450;
+    font-style: normal;
+    z-index: -1;
+    position: absolute;
+    max-width: 5rem;
+    padding: 0rem 3rem 0rem 3rem;
+    
+}
+.blackfriday{
+    color: wheat;
+    font-weight: bolder;
+    word-spacing: 5px;
+    text-indent: 5px;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke: 2px;
+    position: relative;
+    z-index: 1;
+    font-style: normal;
+    max-width: 5rem;
+    padding: 0rem 3rem 0rem 3rem;
+
+}
+.november{
+    margin-left: 120px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 0.6rem;
+    font-weight: bolder;
+    word-spacing: 5px;
+    text-indent: 5px;
+    color: orangered;
+}
+.callto{
+    display: flex;
+    margin-left: 100px; 
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    word-spacing: 5px;
+    text-indent: 5px;
+    animation: marquee 10s infinite 0.2s top ;
+}
+@keyframes marquee {
+    0% { transform: translateY(0);}
+    100% {transform: translateX(-100%);}
+}
+.shopnow{
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    word-spacing: 5px;
+    text-indent: 5px;
+}
+.sell{
+    /* display: flex; */
+    background-color:whitesmoke;
+}
+.imagestar{
+    width: 20px;
+    height: 10px;
+    margin-left: 100px;
+}
+.sello{
+    margin-left: 10px;
+    background-color: snow;
+}
+.sello:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.whitejumia{
+    width: 50px;
+    height: 30px;
+    margin-left: 500px;
+}
+.food{
+    margin-left: 10px;
+    font-size: smaller;
+}
+.pay{
+    margin-left: 10px;
+    font-size: smaller;
+}
+.force{
+    margin-left: 10px;
+    font-size: smaller;
+}
+.food:hover{
+    color: orangered;
+}
+.pay:hover{
+    color: orangered;
+}
+.force:hover{
+    color: orangered;
+}
+.nav{
+    background-color:white;
+    padding: 20px;
+}
+.form{
+    display: flex;
+}
+.searchinput{
+    width: 400px;
+    margin-left: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border: 5px;
+    box-sizing: border-box;
+}
+.button{
+    margin-left: 50px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(236, 74, 15);
+
+}
+.button:hover{
+    background-color:rgb(49, 39, 36);
+    color: rgb(141, 10, 91);
+}
+.searchinput:hover{
+    border-color: blue;
+    background-color: rgb(216, 223, 206);
+}
+.image{
+    width: 200px;
+    height: 40px;
+    margin-left: 100px;
+}
+.Account{
+    margin-left: 70px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:white;
+    /* display: flex; */
+    
+}
+.help{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: white;
+}
+.helpdro:hover{
+color: orangered;
+}
+.cart{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: white;
+}
+.Account:hover{
+    color: orangered;
+}
+.help:hover{
+    color: orangered;
+}
+.cart:hover{
+color: orangered;
+}
